@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: darkslategray;
+}
+
+.header a {
+    color: #fff;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.header a[class='active'] {
+    color: chartreuse;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkslategray;
+    padding: 50px 20px;
+    color: #fff;
+}
+
+.content {
+    padding: 20px;
+    min-height: calc(100vh - 226px);
+}

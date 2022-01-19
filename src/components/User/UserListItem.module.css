@@ -1,0 +1,17 @@
+.list_item {
+    margin: 20px 0;
+}
+
+.list_item_btn {
+    display: inline;
+    margin-left: 10px;
+    padding: 5px 15px;
+}
+
+.list_item_btn a {
+    background-color: darkslategray;
+    display: inline;
+    padding: 5px 15px;
+    color: #fff;
+    text-decoration: none;
+}
